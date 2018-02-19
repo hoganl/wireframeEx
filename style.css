@@ -24,16 +24,64 @@ nav li {
     margin-right: 75px;
 }
 
-a {
+li a {
     text-decoration: none;
     color: #888;
 }
 
 main {
     width: 960px;
-    margin: 30px auto;
+    margin: 30px auto;  
+}
+
+main ul {
+    padding-left: 0px;
 }
 
 main li {
     display: inline-block;
+}
+
+#centerImg2 {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+section {
+    display: inline-block;
+}
+
+section img {
+    float: left;
+    margin-right: 30px;
+}
+
+div h2 {
+    margin: 0px;
+}
+
+div p {
+    overflow-y: scroll;
+    height: 335px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-style: italic;
+}
+
+button {
+    background-color: black;
+    padding: 8px;
+    border: none;
+    margin-top: 5px;
+    transition: 350ms;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button a:hover {
+    background-color: gray;
+    color: black;
 }
